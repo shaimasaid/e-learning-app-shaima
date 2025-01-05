@@ -17,7 +17,7 @@ public class ManageEntity {
             System.out.println("Invalid action! Please try again.");
         }
 
-        // Loop to confirm action
+        
         System.out.println("Do you want to perform another action? (yes/no): ");
         String confirm = scanner.nextLine();
         while (confirm.equalsIgnoreCase("yes")) {
